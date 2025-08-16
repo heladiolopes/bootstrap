@@ -1,6 +1,8 @@
 #!/bin/bash
 
-echo "[theming] Fonts & Themin"
+set -euo pipefail
+
+echo "[theming] Fonts & Theming"
 
 sudo_run pacman -S --needed --noconfirm \
   ttf-font-awesome ttf-jetbrains-mono-nerd ttf-opensans noto-fonts ttf-droid ttf-roboto \

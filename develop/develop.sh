@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 echo "[develop] Terminal utils"
 sudo_run pacman -S --needed --noconfirm \
   kitty wget curl unzip inetutils \

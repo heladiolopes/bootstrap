@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 echo "[display_manager] Display Manager SDDM"
 
 sudo_run pacman -S --needed --noconfirm \

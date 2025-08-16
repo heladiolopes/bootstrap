@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 echo "[desktop] Core Desktop (Hyprland)"
 
 sudo_run pacman -S --needed --noconfirm \
