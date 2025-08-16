@@ -5,7 +5,7 @@ set -euo pipefail
 echo "[display_manager] Display Manager SDDM"
 
 sudo_run pacman -S --needed --noconfirm \
-  sddm
+  sddm sddm-kcm
 
 echo "[display_manager] Enabling SDDM display manager"
 sudo_run 'systemctl enable sddm'
