@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # Ask sudo password before everything starts
-sudo echo
+sudo -v
 
 # Source scripts
 source preflight/functions.sh

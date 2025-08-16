@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 echo "[utilities] Desktop Utilities"
 
 sudo_run pacman -S --needed --noconfirm \

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 # Check if yay is already installed
 if need yay; then
   echo "[aur] yay already installed"

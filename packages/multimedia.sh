@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 echo "[multimedia] Audio & Multimedia"
 
 sudo_run pacman -S --needed --noconfirm \

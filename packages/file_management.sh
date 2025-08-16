@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 echo "[file_management] Filemanagement & KDE"
 
 sudo_run pacman -S --needed --noconfirm \

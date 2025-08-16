@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 echo "[pacman] Configuring pacman (/etc/pacman.conf)"
 # Enable Colors and multiple downloads
 sudo_run 'sed -i \
