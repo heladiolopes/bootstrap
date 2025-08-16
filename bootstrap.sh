@@ -24,5 +24,5 @@ source packages/utilities.sh
 # Dotfiles and file editors
 source develop/develop.sh
 source develop/dotfiles.sh
-source develop/userdirs.sh
+source develop/user.sh
 source develop/tools.sh
