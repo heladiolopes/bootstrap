@@ -4,7 +4,7 @@ set -euo pipefail
 
 echo "[develop] Terminal utils"
 sudo_run pacman -S --needed --noconfirm \
-  kitty wget curl unzip inetutils \
+  zsh kitty wget curl unzip inetutils \
   fd eza fzf ripgrep zoxide bat jq \
   btop man tldr less whois fastfetch
 
